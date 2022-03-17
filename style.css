@@ -1,0 +1,45 @@
+* {
+  font-size: x-large;
+}
+
+.description {
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.game {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.level-two {
+  display: none;
+}
+
+.next-button {
+  padding: 1rem 2rem;
+  background: #0e4572;
+  cursor: pointer;
+  color: white;
+  border: none;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.5s ease;
+}
+
+.spooky-picture {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: none;
+}
